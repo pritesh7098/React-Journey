@@ -1,9 +1,12 @@
-import logo from './logo.svg';
+import logo from "./logo.svg";
+import Chai from "./chai";
 
 function App() {
-   return (
-    <h1>Chai Aur React With NPX </h1>
-   )
+  return (
+    <>
+      <Chai/>
+    </>
+  );
 }
 
 export default App;
