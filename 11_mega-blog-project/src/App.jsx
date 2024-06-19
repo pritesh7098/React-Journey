@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
 
-console.log(process.env.REACT_APP_APPWRITE_URL);
+console.log(import.meta.env.VITE_APP_APPWRITE_URL); // because it is a vite app so it starts with import.meta and the vite prefix
 
   return (
     <>
