@@ -1,3 +1,5 @@
+// this Project section basicaly for services like auth, db, storage and so on is written in this file 
+
 import config from "./../conf/config";
 
 import { Client, Account, Databases, Storage, Query, ID } from "appwrite";

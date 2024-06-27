@@ -1,6 +1,6 @@
 // this is an appwrite auth snippet for this project
 // and you can use it for another appwite projects as u know it is neceesary to have auth system in all projects so yeah it is useful
-// do smart work rather than repear=ting thing
+// do smart work rather than repeating things
 // also this is a future proof code as you can switch between diff BASS like firebase, supabase, own backend services etc with minimal changes
 
 import config from "./../conf/config";
