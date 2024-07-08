@@ -1,6 +1,6 @@
 import React from 'react'
 import{ Signup as SignupComponent } from '../components/Signup'
-function signUp() {
+function SignUp() {
   return (
     <div className='py-8'>
         <SignupComponent />
@@ -8,4 +8,4 @@ function signUp() {
   )
 }
 
-export default signUp
+export default SignUp
