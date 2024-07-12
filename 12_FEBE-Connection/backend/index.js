@@ -1,4 +1,3 @@
-
 // backend part of the fullstack application.
 
 import express from "express"; // importing from express
@@ -9,7 +8,7 @@ app.get("/", (req, res) => {
   res.send("Hello, World ! server is ready now!");
 });
 
-app.get("/jokes", (req, res) => {
+app.get("/api/jokes", (req, res) => {
   const jokes = [
     {
       id: 1,
